@@ -1,4 +1,4 @@
-# Explode Kitten
+#  😸 Exploding Kitten
 
 Explode Kitten is a web-based single-player card game inspired by the popular card game "Exploding Kittens". The objective of the game is to draw all 5 cards from a deck without drawing an exploding kitten card.
 
@@ -28,16 +28,25 @@ Explode Kitten is a web-based single-player card game inspired by the popular ca
    cd explode-kitten/backend
 Install backend dependencies:
 - npm install
+
 Set up environment variables:
 - Create a .env file in the backend directory and add the following variables:
-- **MONGODB_URI=your_mongodb_uri**
+  
+  **MONGODB_URI=your_mongodb_uri**
+  
 Start the backend server:
+
 **node server.js**
+
 change start script in package.json to nodemon server.js then use below command:
+
 run command: **npm start**
      
 ### Frontend
 Navigate to the frontend directory:
+  ```bash
+   cd frontend
+```
 cd ../frontend
 
 Install frontend dependencies:
@@ -45,19 +54,26 @@ npm install
 
 create a .env file in your frontend file and add key VITE_SERVER = //your server link//
 
-Start the frontend server:
-npm run dev (vite react app)
-npm start (react app)
+### Start the frontend server:
+```bash 
+npm run dev
+```
+ (vite react app)
+
+```bash
+npm start
+```
+ (react app)
 
 This will automatically open your default web browser to http://localhost:3000 or http://localhost:5137 if your app is from vite react.
 
-Usage
+### Usage
 Click the "Play" button to begin.
 Click on the deck to reveal a card.
 
 Follow the rules mentioned below to play the game.
 
-Rules
+### Rules
 Draw all 5 cards from the deck to win the game.
 If you draw an exploding kitten card, you lose the game.
 Defuse cards can be used to defuse an exploding kitten card.
